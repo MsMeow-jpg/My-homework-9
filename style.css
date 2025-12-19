@@ -84,10 +84,10 @@ body {
     top: 362px;
     left: 400px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.6;
-    color: #000;
+    color: #727272;
     opacity: 1;
     transform: rotate(0deg);
     margin: 0;
@@ -147,7 +147,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #000;
+  color: #727272;
   margin: 0;
 }
 
@@ -232,6 +232,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0;
+  color: #727272;
 }
 .how-i-work-image {
   position: absolute;
