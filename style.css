@@ -9,110 +9,63 @@ body {
 
 /* First Block */
 .first-block {
-    position: relative;
-    width: 1920px;
-    height: 700px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    background: #eeeff1;
+  width: 1920px;
+  height: 700px;
+  background: #eeeff1;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.first-block a {
-    position: absolute;
-    height: 16px;
-    font-size: 14px;
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    line-height: 1.64;
-    letter-spacing: 0.1em;
+.nav {
+  display: flex;
+  gap: 40px;
+  margin-top: 79px;
+  margin-left: 399px;
+}
+
+.first-block a:not(.home) {
+  font-size: 14px;
+  text-decoration: none;
+   color: #000000;
 }
 
 .home {
-    width: 101px;
-    top: 79px;
-    left: 399px;
-    color: #34547A; 
+  color: #34547A;
+  text-decoration: none;
 }
 
-.about {
-    width: 100px;
-    top: 79px;
-    left: 500px;
-    color: #000000;
-}
-
-.works {
-    width: 74px;
-    top: 79px;
-    left: 612px;
-    color: #000000;
-}
-
-.process {
-    width: 86px;
-    top: 79px;
-    left: 734px;
-    color: #000000;
-}
-
-.contacts {
-    width: 99px;
-    top: 79px;
-    left: 865px;
-    color: #000000;
+.first-content {
+  margin-top: 178px;
+  margin-left: 399px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .title {
-    position: absolute;
-    width: 541px;
-    height: 45px;
-    top: 257px;
-    left: 399px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 36px; 
-    line-height: 1.2;
-    color: #000;
-    margin: 0;
+  font-size: 36px;
+  margin: 0;
 }
 
 .subtitle {
-    position: absolute;
-    width: 540px;
-    height: 67px;
-    top: 362px;
-    left: 400px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.6;
-    color: #727272;
-    opacity: 1;
-    transform: rotate(0deg);
-    margin: 0;
+  width: 540px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #727272;
+  margin: 0;
 }
 
 .write-btn {
-    position: absolute;
-    width: 225px;
-    height: 65px;
-    top: 494px;
-    left: 399px;
-    background-color: #34547A;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 225px;
+  height: 65px;
+  background-color: #34547A;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 0.1em;
 }
-
 /* Second Block */
 .second-block {
   position: relative;
