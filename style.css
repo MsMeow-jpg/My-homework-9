@@ -68,39 +68,27 @@ body {
 }
 /* Second Block */
 .second-block {
-  position: relative;
   width: 1920px;
   height: 359px;
   background-color: #f9f9f9;
   margin: 0 auto;
-  box-sizing: border-box;
-  padding-left: 758px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 
 .about-me {
-  position: absolute;
-  top: 112px; 
-  left: 758px;
-  width: 403px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
   font-size: 32px;
-  line-height: 1;
-  letter-spacing: 0;
-  text-align: center;
   margin: 0;
 }
 
 .about-text {
-  position: absolute;
-  top: 192px;
-  left: 758px;
   width: 540px;
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   color: #727272;
+  text-align: center;
   margin: 0;
 }
 
