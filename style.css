@@ -161,29 +161,26 @@ body {
 }
 /*Fifth block*/
 .fifth-block {
-  position: relative;
   width: 1920px;
   height: 151px;
   background-color: #34547A;
   margin: 0 auto;
-  box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 
-.fifth-block .name {
-  position: absolute;
-  top: 50px;
-  left: 406px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+.footer-content {
+  margin-left: 406px;
+}
+
+.name {
   font-size: 21px;
   color: #fff;
 }
-.fifth-block .copyright {
-  position: absolute;
-  top: 89px;
-  left: 406px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+
+.copyright {
   font-size: 13px;
+  font-weight: 400;
   color: #fff;
+  margin-top: 18px;
 }
