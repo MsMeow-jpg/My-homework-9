@@ -94,44 +94,23 @@ body {
 
 /* Third Block */
 .third-block {
-  position: relative;
   width: 1920px;
   height: 250px;
   background-color: #34547A;
   margin: 0 auto;
-  box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 
-.numbers-item {
-  position: absolute;
-  top: 100px;             
+.numbers {
+  display: flex;
+  gap: 49px;
+  margin-left: 409px;
+}
+
+.numbers img {
   width: 141px;
   height: 50px;
-  object-fit: contain;
-}
-
-.numbers-item.first {
-  left: 409px;
-}
-
-.numbers-item.second {
-  left: calc(409px + 141px + 45px);
-}
-
-.numbers-item.third {
-  left: calc(409px + 2 * 141px + 45px + 49px);
-}
-
-.numbers-item.fourth {
-  left: calc(409px + 3 * 141px + 45px + 2 * 49px);
-}
-
-.numbers-item.fifth {
-  left: calc(409px + 4 * 141px + 45px + 3 * 49px);
-}
-
-.numbers-item.sixth {
-  left: calc(409px + 5 * 141px + 45px + 4 * 49px);
 }
 
 /*Fourth block*/
